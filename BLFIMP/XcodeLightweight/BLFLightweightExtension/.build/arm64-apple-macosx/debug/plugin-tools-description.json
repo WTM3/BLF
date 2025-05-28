@@ -1,0 +1,277 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BLFLightweightExtension-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources",
+      "importPath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "BLFLightweightExtension",
+      "moduleOutputPath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule",
+      "objects" : [
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "BLFLightweightExtension_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift",
+        "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift"
+      ],
+      "tempsPath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BLFLightweightExtension" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "BLFLightweightExtension",
+      "-incremental",
+      "-c",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift",
+      "-I",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "BLFLightweightExtension_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BLFLightweightExtension" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist"
+    },
+    "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources"
+    },
+    "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList"
+    },
+    "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

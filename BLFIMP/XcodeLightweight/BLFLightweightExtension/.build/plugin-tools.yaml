@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe": ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe>"]
+  "BLFLightweightExtension-arm64-apple-macosx15.0-debug.module": ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe>","<BLFLightweightExtension-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe>","<BLFLightweightExtension-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension":
+    is-mutated: true
+commands:
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist"]
+    description: "Write auxiliary file /Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist"
+
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources"]
+    description: "Write auxiliary file /Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources"
+
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList"
+
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<BLFLightweightExtension-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule"]
+    outputs: ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/BLFLightweightExtension"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug","-o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension","-module-name","BLFLightweightExtension","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_BLFLightweightExtension_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/usr/lib/swift-5.5/macosx","-target","arm64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist"]
+    outputs: ["<BLFLightweightExtension-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/BLFLightweightExtension"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension-entitlement.plist","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension"]
+
+  "C.BLFLightweightExtension-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources"]
+    outputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule"]
+    description: "Compiling Swift Module 'BLFLightweightExtension' (4 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","BLFLightweightExtension","-emit-dependencies","-emit-module","-emit-module-path","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules/BLFLightweightExtension.swiftmodule","-output-file-map","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/output-file-map.json","-incremental","-c","@/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/sources","-I","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.15","-enable-batch-mode","-index-store-path","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","BLFLightweightExtension_main","-color-diagnostics","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Package.swift","/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

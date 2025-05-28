@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/master.swiftdeps"
+  },
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFBuffer.swift": {
+    "dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.d",
+    "object": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swift.o",
+    "swiftmodule": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFBuffer.swiftdeps"
+  },
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightExtension.swift": {
+    "dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.d",
+    "object": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swift.o",
+    "swiftmodule": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightExtension.swiftdeps"
+  },
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/BLFLightweightStandalone.swift": {
+    "dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.d",
+    "object": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swift.o",
+    "swiftmodule": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone~partial.swiftmodule",
+    "swift-dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/BLFLightweightStandalone.swiftdeps"
+  },
+  "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/Sources/main.swift": {
+    "dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.d",
+    "object": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swift.o",
+    "swiftmodule": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/wade/Library/CloudStorage/Dropbox/AMF/BLF/BLFIMP/XcodeLightweight/BLFLightweightExtension/.build/arm64-apple-macosx/debug/BLFLightweightExtension.build/main.swiftdeps"
+  }
+}

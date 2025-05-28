@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>BLF Lightweight</string>
+    <key>CFBundleExecutable</key>
+    <string>BLFLightweight</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.blf.xcode.lightweight</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>BLF Lightweight Extension</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.dt.Xcode.extension.source-editor</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>BLFLightweightExtension</string>
+        <key>XCSourceEditorCommandDefinitions</key>
+        <array>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>BLFSourceEditorCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.blf.xcode.buffer-monitor</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Monitor Buffer Integrity</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>BLFBufferIntegrityCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.blf.xcode.buffer-status</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Show Buffer Status</string>
+            </dict>
+        </array>
+    </dict>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2024 Boolean Language Framework. All rights reserved.</string>
+</dict>
+</plist> 
