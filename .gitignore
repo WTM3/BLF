@@ -55,3 +55,8 @@ dist/
 build/
 *.log
 .build/
+# Build artifacts and development files
+.build/
+.swiftpm/
+*.build/
+build.db

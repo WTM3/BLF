@@ -1,5 +1,6 @@
 import SwiftUI
 import BLFNJSONBridge
+import Foundation
 
 extension DateFormatter {
     static let timeFormatter: DateFormatter = {
@@ -431,6 +432,12 @@ struct ChatView: View {
             HStack(spacing: 12) {
                 TextField("Chat with the V-8 engine...", text: $inputText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .onAppear {
+                        // Ensure this text field gets focus
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                            NSApplication.shared.keyWindow?.makeFirstResponder(nil)
+                        }
+                    }
                 
                 Button(action: {
                     sendCurrentMessage()
@@ -637,15 +644,23 @@ struct BLFiMessageBotApp: App {
             ContentView()
                 .environmentObject(appState)
                 .onAppear {
-                    // Initialize in background to prevent blocking
-                    Task.detached {
-                        await appState.initialize()
+                    // Ensure window activation and focus
+                    NSApplication.shared.activate(ignoringOtherApps: true)
+                    
+                    // Force window to front
+                    if let window = NSApplication.shared.windows.first {
+                        window.makeKeyAndOrderFront(nil)
+                        window.orderFrontRegardless()
+                    }
+                    
+                    Task {
+                        await appState.startBot()
                     }
                 }
         }
-        .windowStyle(HiddenTitleBarWindowStyle())
+        .windowStyle(DefaultWindowStyle())
         .commands {
-            CommandGroup(replacing: .newItem) { }
+            CommandGroup(replacing: .newItem) {}
         }
     }
 } 
